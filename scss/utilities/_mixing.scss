@@ -1,0 +1,21 @@
+@mixin propiedades-flex-combos ($direction, $align){
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+}
+@mixin grid-content-combos ($columns, $justify){
+    display: grid;
+    grid-template-columns: $columns;
+    justify-items: $justify;
+}
+@mixin propiedades-flex-home ($justify) {
+    justify-content: $justify;
+}
+@mixin propiedades-flex-menu ($justify){
+    display: flex;
+    justify-content: $justify;
+}
+@mixin propiedades-flex-nosotros ($justify){
+    display: flex;
+    justify-content: $justify;
+}

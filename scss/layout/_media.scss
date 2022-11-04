@@ -1,0 +1,168 @@
+@media screen and (max-width: 768px) {
+
+    
+    .arma_combo {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin-block-start: 150px;
+        margin-left: 35px;
+    }
+    .logo {
+        margin: 50px;
+        height: 150px;
+    }
+    ul {
+        display: flex;
+        position: relative;
+        list-style: none;
+        font-size: 20px;
+    }
+    .home_1 {
+        width: 600px;
+        margin: 100px;
+        margin-block-start: 200px;
+        border: inset 10px cadetblue;
+    }
+    .home_2 {
+        width: 600px;
+        margin: 100px;
+        justify-content: left;
+        border: inset 10px cadetblue;
+    }
+    .menu_titulo {
+        color: var(--secundario);
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .combos___pollo-carne {
+        font-size: 20px;
+        text-align: left;
+        margin: 100px;
+        margin-top: 30px;
+    }
+    .combos_carne {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .combos_pollo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nos {
+        color: var(--secundario);
+        font-size: 50px;
+        margin-block-start: 20px;
+        margin-left: 10px;
+    }
+    .text {
+        border: 4px solid black;
+        margin: 100px;
+        margin-right: auto;
+        text-align: center;
+        table-layout: fixed;
+        background-color: hsl(61, 78%, 70%);
+        width: 650px;
+        height: 200px;
+        display: table;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    
+    .arma_combo {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin-block-start: 0%;
+        margin-left: 35px;
+    }
+    .menu {
+        max-width: 1500px;
+        margin: auto;
+        display: flex;
+        height: 100%;
+        text-decoration: underline;
+        align-items: center;
+        justify-content: center;
+    }
+    ul {
+        display: flex;
+        position: relative;
+        list-style: none;
+        font-size: 12px;
+    }
+    
+    .home_1 {
+        width: 400px;
+        margin: 100px;
+        margin-block-start: 200px;
+        border: inset 10px cadetblue;
+    }
+    
+    .home_2 {
+        width: 400px;
+        margin: 100px;
+        justify-content: left;
+        border: inset 10px cadetblue;
+    }
+
+    .menu_1 {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        transition: 0.5s;
+    }
+
+    .menu__1 {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        margin: 60px;
+    }
+
+    .menu_2 {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        transition: 0.5s;
+    }
+
+    .menu__2 {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        margin: 60px;
+    }
+    .combos___pollo-carne {
+
+        font-size: 13px;
+        text-align: center;
+        margin: 8px;
+        margin-top: 30px;
+    }
+
+    .copy {
+        font-size: 20px;
+        margin: 0%;
+    }
+
+    .text {
+        border: 4px solid black;
+        margin: 65px;
+        margin-right: auto;
+        text-align: center;
+        table-layout: fixed;
+        background-color: hsl(61, 78%, 70%);
+        width: 450px;
+        height: 200px;
+        display: table;
+    }
+}

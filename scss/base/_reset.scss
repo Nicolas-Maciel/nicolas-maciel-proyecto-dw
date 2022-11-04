@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fuentePrincipal);
+    text-decoration: none;
+}
+
+body {
+    background-color: #f66f00;
+    background-image: radial-gradient(#f3b93e 1.7000000000000002px, #f66f00 1.7000000000000002px);
+    background-size: 34px 34px;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+
+*,*::before, *::after {
+    box-sizing: inherit;
+}

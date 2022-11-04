@@ -1,0 +1,38 @@
+.menu_titulo {
+    @include propiedades-flex-menu (center);
+    color: $secundario;
+    font-size: 50px;
+}
+.menu_1 {
+    @include propiedades-flex-menu (center);
+    width: 500px;
+    transition: 0.5s;
+    &:hover {
+    transform: scale(1.3);
+    }
+}
+.menu__1 {
+    @include propiedades-flex-menu (none);
+    font-size: 30px;
+    margin: 60px;
+}
+.menu___1 {
+    margin: 100px;
+}
+.menu_2 {
+    @include propiedades-flex-menu (center);
+    width: 500px;
+    transition: 0.5s;
+    &:hover {
+    transform: scale(1.3);
+    }
+
+}
+.menu__2 {
+    @include propiedades-flex-menu (none);
+    font-size: 30px;
+    margin: 60px;
+}
+.menu___2 {
+    margin: 100px;
+}

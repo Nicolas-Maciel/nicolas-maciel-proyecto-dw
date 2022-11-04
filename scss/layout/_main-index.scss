@@ -1,0 +1,19 @@
+.arma_combo {
+    color: $negro;
+    font-size: 50px;
+    margin-block-start: 200px;
+    margin-left: 600px;
+    
+}
+.home_1 {
+    width: 750px;
+    margin: 100px;
+    margin-block-start: 200px;
+    border: inset 10px cadetblue;
+}
+.home_2 {
+    @include propiedades-flex-home (left);
+    width: 750px;
+    margin: 100px;
+    border: inset 10px cadetblue;
+}

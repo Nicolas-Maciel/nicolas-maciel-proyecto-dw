@@ -1,0 +1,26 @@
+.nos {
+    color: $secundario;
+    font-size: 50px;
+    margin-block-start: 200px;
+    margin-left: 150px;
+}
+.quienes_somos {
+    @include propiedades-flex-nosotros (center);
+    color: $terciario;
+    font-size: 30px;
+}
+.text {
+    border: 4px solid black;
+    margin: 100px;
+    margin-left: 500px;
+    text-align: center;
+    table-layout: fixed;
+    background-color: hsl(61, 78%, 70%);
+    width: 1000px;
+    height: 200px;
+    display: table;
+}
+.text p {
+    color: rgb(97, 97, 97);
+    font-size: 30px;
+}
